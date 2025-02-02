@@ -11,8 +11,6 @@ export default function Home() {
 
                     <h2 className="text-left2">Preencha seus<br/>dados de<br/>acesso</h2>
 
-                    {/*Testar se a imagem deve ficar no text-container ou não. */}
-
                 </div>
 
                 <img className="img" src="/pessoas.png" alt="Imagem de pessoas"></img>
