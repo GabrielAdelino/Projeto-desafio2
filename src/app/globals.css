@@ -103,3 +103,28 @@
     align-items: center;
   }
 }
+
+@media (max-width: 400px) {
+  .text-left2 {
+    font-size: 36px; /* Reduz o tamanho do texto para telas menores */
+  }
+
+  .inputs {
+    max-width: 300px;
+  }
+
+  .form-side button {
+    max-width: 250px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+    background-color: #740CFC;
+    color: #fff;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+}
